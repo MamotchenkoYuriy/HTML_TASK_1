@@ -1,0 +1,153 @@
+body{
+    background: white;
+}
+#page_align{
+    width: 770px;
+    margin: auto;
+    background: url("../img/task_2/bgwrapper.png") repeat-y;
+}
+#header{
+    background: url("../img/task_2/bgheader.png");
+    height: 233px;
+    width: 100%;
+}
+#header ul{
+    list-style: none;
+    overflow: hidden;
+    display: inline;
+    float: right;
+    margin-top: 0px;
+    font-size: 12px;
+    padding-right: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#header ul li{
+    list-style: none;
+    color: darkblue;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: tahoma-regular;
+}
+#header ul li a{
+    text-decoration: inherit;
+}
+#header img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+#header_icons{
+    float: right;
+    margin-top: 150px;
+    margin-right: -180px;
+}
+#header_icons a{
+    float: left;
+    margin-right: 30px;
+    display: block;
+    height: 11px;
+    width: 11px;
+    background: url("../img/task_2/bgsprites.png");
+    margin-left: 0px;
+}
+
+#main_block{
+    width: 770px;
+    min-height: 490px;
+}
+#sidebar{
+    width: 200px;
+    float: left;
+    overflow: hidden;
+}
+#sidebar ul{
+    margin-top: 25px;
+    list-style: none;
+    overflow: hidden;
+}
+#sidebar ul li{
+    margin-left: -40px;
+    padding-left: 23px;
+    background: url("../img/task_2/bgli.png") repeat-y;
+    margin-top: 6px;
+    text-decoration: none;
+    color: white;
+}
+#sidebar ul li:last-child{
+    text-decoration: underline;
+}
+#sidebar ul li:first-child{
+    text-decoration: underline;
+    color: rgb(0,51,102);
+}
+#sidebar ul li a{
+    text-decoration: inherit;
+    font-style: normal;
+    color: inherit;
+}
+.a_last{
+    text-decoration: underline;
+}
+
+#main_content{
+    float: right;
+    width: 568px;
+    min-height: 200px;
+    overflow: hidden;
+}
+#news{
+    padding-left: 14px;
+    width: 94%;
+    margin-bottom: 35px;
+}
+#news p{
+    color: black;
+    font-size: 12px;
+    font-family: "vendeta-regilar regular";
+    font-style: normal;
+}
+#news a{
+    float: right;
+    font-size: 12px;
+    font-family: vendeta-bold;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+h3{
+    color: rgb(0,51,102);
+    font-size: 15px;
+    font: vendeta-bold;
+    margin-bottom: 10px;
+}
+#footer{
+    background: url("../img/task_2/Footer.png") no-repeat;
+    width: 770px;
+    height: 50px;
+}
+#footer_info{
+    color: white;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    font-size: 10px;
+    font-family: tahoma-regular;
+    font-style: normal;
+}
+#sidebar_down_info{
+    margin-top: 137px;
+    margin-left: 25px;
+    margin-right: 10px;
+
+}
+#sidebar_down_info h3{
+    color: white;
+}
+#sidebar_down_info p{
+    color: black;
+    font-size: 12px;
+    font-family: "vendeta-regilar regular";
+    font-style: normal;
+}

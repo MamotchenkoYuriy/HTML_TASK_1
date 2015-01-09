@@ -1,0 +1,38 @@
+body{
+    background: white;
+}
+#main_block{
+    outline: solid 1px black;
+    width: 104;
+    height: 80;
+    float: left;
+}
+#white_block{
+    width: 50;
+    height: 50;
+    background: white;
+    float: left;
+    outline: solid 1px white;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 5px;
+
+}
+#black_block{
+    width: 50;
+    height: 50;
+    background: black;
+    float: right;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    padding-right: 10px;
+    padding-top: 5px;
+}

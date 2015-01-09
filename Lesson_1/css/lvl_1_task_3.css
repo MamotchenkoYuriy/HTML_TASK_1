@@ -1,0 +1,198 @@
+body{
+    overflow: hidden;
+}
+#page_align{
+    background: url("../img/task_3/pg_bg.png");
+    margin: 0 auto;
+    width: 470px;
+    height: 422px;
+    border: solid 1px rgb(206,201,211);
+    border-radius: 3px;
+}
+#header_menu{
+    margin: auto;
+    background: url("../img/task_3/top_bg.png");
+    height: 40px;
+    width: inherit;
+    height: 40px;
+}
+#header_menu ul{
+    position: static;
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    display: table;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#header_menu ul li{
+    float: left;
+    color: rgb(51, 101,159);
+    margin-top: 13px;
+    padding-right: 45px;
+}
+#header_menu ul li a{
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-style:normal;
+    font: "arial-regular";
+    font-size: 14px;
+}
+
+#header_menu ul li:first-child{
+    color: white;
+    margin-left: -7px;
+}
+#header_btn{
+    width: inherit;
+    height: 50px;
+}
+#left_desk a{
+    text-decoration: none;
+    background: url("../img/task_3/notepad.png") no-repeat;
+    line-height: 20px;
+    float: left;
+    padding-left: 25px;
+    display: block;
+    margin-left: 18px;
+    margin-top: 25px;
+    padding-top: 3px;
+    font-size: 14px;
+    color: #a5a5a5;
+}
+#right_items{
+    width: 60px;
+    height: 22px;
+    float: right;
+    margin-right: 18px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#right_item_left{
+    float: left;
+    background: #e4e9ed;
+    width: 29px;
+    height: 22px;
+    box-shadow: inset 1px 1px 3px #a5a5a5;
+}
+
+#right_item_right{
+    background: url("../img/task_3/blue_gradient.png");
+    float: right;
+    width: 29px;
+    height: 22px;
+    border: solid 1px #759ec1;
+}
+#right_items img{
+    display: inherit;
+    width: 11px;
+    height: 11px;
+    margin: 5px auto;
+}
+#right_items a{
+    line-height: 22px;
+    display: block;
+}
+#input_btns{
+    height: 330px;
+    padding-left: 17px;
+}
+#image_left{
+    margin-top: 2px;
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    height: 140px;
+    border-radius: 3px;
+    border: solid 1px #d0d3d6;
+}
+#image_left_inside_block{
+    background: url("../img/task_3/bg_image.png") ;
+    overflow: hidden;
+    float: left;
+    width: 90px;
+    height: 130px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#image_left_inside_block img{
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+.inputs_firlds{
+    border: #c5c8cb solid 1px;
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 5px #c3c7ca;
+    margin-right: 18px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    float: right;
+}
+input[type=text]{
+    line-height: 27px;
+    height: 27px;
+    width: 315px;
+    max-width: 325px;
+    text-decoration: none;
+    font: arial-regular;
+    padding-left: 10px;
+}
+textarea[name="textarea_description"]{
+    line-height: 27px;
+    width: 313px;
+    height: 90px;
+    max-width: 313px;
+    max-height: 90px;
+    min-width: 313px;
+    min-height: 90px;
+    color: rgba(1,1,1,0.43);
+    font: arial-regular;
+    padding-left: 10px;
+}
+textarea[name="textarea_instruction"]{
+    line-height: 27px;
+    width: 420px;
+    height: 90px;
+    max-width: 420px;
+    max-height: 90px;
+    min-width: 420px;
+    min-height: 90px;
+    color: rgba(1,1,1,0.43);
+    font: arial-regular;
+    padding-left: 10px;
+}
+input[name=download]{
+    float: left;
+    width: 100px;
+    margin-top: 150px;
+    position: fixed;
+    margin-left: -100px;
+    border-radius: 3px;
+    border: solid 1px #759ec1;
+    background: url("../img/task_3/img_downloud.png");
+    color: white;
+}
+.arrowLeft{
+    float: right;
+    height: 23px;
+    width: 89px;
+    overflow: hidden;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+.arrowLeft a{
+    background: url("../img/task_3/strelka1.png") no-repeat;
+    display: block;
+    text-decoration: none;
+    height: inherit;
+    width: inherit;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 5px;
+}

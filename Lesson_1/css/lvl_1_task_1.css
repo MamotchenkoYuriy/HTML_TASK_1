@@ -1,0 +1,83 @@
+body{
+    background: white;
+}
+#page_align{
+    width: 700px;
+    margin: auto;
+}
+#header img {
+    height: 80px;
+    width: 100px;
+    outline: solid 1px white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#header{
+    background: green;
+    height: 140px;
+}
+#main_block{
+    background: url("../img/task_1/bgmain.png");
+    width: 700px;
+    overflow: hidden;
+}
+#sidebar{
+    float: left;
+    width: 172px;
+    overflow: hidden;
+}
+#sidebar ul li{
+    list-style: none;
+}
+#sidebar ul li:first-child{
+    list-style: none;
+    text-decoration: underline;
+}
+#sidebar a{
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#content{
+    float: right;
+    width: 518px;
+    overflow: hidden;
+}
+#content p{
+    padding-left: 30px;
+    padding-right: 50px;
+    color: rgba(1,1,1,0.9);
+    margin-bottom: 50px;
+}
+#content h2{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgba(1,1,1,0.5);
+    margin-bottom: 40px;
+}
+#footer{
+    width: 700px;
+    background: url("../img/task_1/bgfooter.png");
+    height: 76px;
+}
+#footer ul{
+    list-style: none;
+    height: inherit;
+    display: inline-flex;
+}
+#footer ul li{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#footer ul li:first-child{
+    text-decoration: underline;
+}
+#center-block{
+    text-align: center;
+    margin: auto;
+    outline: solid 1px black;
+    display: inline;
+    height: inherit;
+    width: inherit;
+}
